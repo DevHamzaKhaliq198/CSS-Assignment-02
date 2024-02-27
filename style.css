@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Quicksand', sans-serif;
+}
+/* *****************Header******************************* */
+header{
+    margin:10px 10px;
+    display: flex;
+}
+#firstdiv{
+    width:85%;
+    padding-left:20px;
+}
+#seconddiv,#thirddiv,#fourthdiv{
+    margin-left:25px;
+}
+/************************* Main ***************************** */
+main{
+    display: inline-block;
+    padding:0px 30px;
+}
+#upperPart{
+    background-image:url("Assets/Side\ View.jpeg");
+    background-repeat: no-repeat;
+    height:700px;
+    padding-top:26%;
+}
+#upperPart p{
+    font-size:25px;
+    color: aliceblue;
+}
+#upperPartContent{
+margin-left:42%;
+background-color:rgba(0, 0, 0, 0.743);
+color: white;
+font-size:35px;
+}
+h3{
+    margin-top: 20px;
+    margin-bottom:10px;
+}
+/* ************PROJECTS******************************* */
+#houses{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:30px;
+}
+.housesText{
+    background-color: black;
+}
+#first{
+    background-image:url("Assets/Brick\ House.jpeg");
+  
+}
+#second{
+    background-image:url("Assets/Summer\ House.jpeg");
+    
+}
+#third{
+    background-image:url("Assets/Barn\ House.jpeg");
+    
+}
+#fourth{
+    background-image:url("Assets/Renovated.jpeg");
+  
+}
+#fifth{
+    background-image:url("Assets/Summer\ House.jpeg");
+   
+}
+#sixth{
+    background-image:url("Assets/Brick\ House.jpeg");
+  
+}
+#seventh{
+    background-image:url("Assets/Renovated.jpeg");
+     
+}
+#eight{
+    background-image:url("Assets/Barn\ House.jpeg");
+
+}
+#first,#second,#third,#fourth,#fifth,#sixth,#seventh,#eight{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:200px;
+    width:24%;
+    margin-left:10px; 
+    margin-bottom:10px ;
+}
+#houses div{
+    color:white;
+    background-color: black;
+}
+/* ************Contributors******************* */
+#all{
+    display:flex;
+}
+#john,#jane,#mike,#dan{
+    width:25%
+}
+#john img,#jane img,#mike img,#dan img{
+    width:100%;
+    padding-left:15px;
+}
+#john button,#jane button,#mike button,#dan button{
+    color:black;
+    background-color: rgba(169, 169, 169, 0.564);
+    border:1px solid rgba(169, 169, 169, 0.564);
+    width: 96%;
+
+}
+
+/* ************Contact Form******************* */
+.inputs{
+    margin-top:10px;
+    width:100%;
+    height:30px;
+}
+button{
+   color:white;
+   background-color:black; 
+   height:30px;
+   text-align: center;
+   padding-left:10px;
+   padding-right:10px;
+   margin-top:5px;
+   margin-bottom:30px;
+}
+/* *******************footer************************************ */
+footer {
+    background-color: black;
+    color:aliceblue;
+    height:70px;
+    padding-top: 25px;
+    text-align: center;
+}
